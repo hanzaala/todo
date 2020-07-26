@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: teal;
+        }
+       #del{
+           background-color: burlywood;
+           margin: 5px;
+           padding: 5px;
+           border-radius: 7px;
+           border: 2px solid black;
+       }
+       #yes{
+           background-color: cornflowerblue;
+           border: 5px solid black;
+           border-radius: 12px;
+           width: 530px;
+           height: 430px;
+           margin: 0 auto;
+       }
+       #todo-item{
+           width: 230px;
+           border: 2px solid   black;
+           height: 20px;
+           border-radius: 6px;
+          
+           
+
+       }
+       #pos{
+           position: absolute;
+           top: 104px;
+           left: 500px;
+       }
+       li{
+           color: wheat;
+           text-shadow: 2px 3px 4px black;
+       }
+       h1{
+        text-shadow: 2px 3px 4px black;
+        
+       
+       }
+    </style>
+</head>
+<body>
+    <h1>TODO APP</h1>
+    <div id="yes">
+    <input type="text" id="todo-item" placeholder="Type text here">
+    <button   id="del" onclick="add()">ADD ITEM</button>
+    <button   id="del" onclick="delall()">DELETE ALL</button>
+      
+</div>
+<div id="pos">
+    <ul id="list">
+
+    </ul>
+</div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
